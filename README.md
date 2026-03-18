@@ -1,18 +1,31 @@
-# Misket Mood Lab
+# Pocket Tamagotchi
 
-React Native / Expo ile gelistirilmis oyunlastirilmis dijital evcil hayvan uygulamasi.
+Expo / React Native ile gelistirilmis oyunlastirilmis dijital evcil hayvan uygulamasi.
 
-Bu proje, Challenge 03'teki temel Tamagotchi prototipinin Challenge 04 icin urunlestirilmis halidir. Amac, basit `props` ve `state` kullanimini; oyunlastirma, kullanici deneyimi ve teslim odakli dokumantasyon ile birlestirmektir.
+Bu proje, Challenge 03'teki temel dijital evcil hayvan fikrinin Challenge 04 icin gelistirilmis halidir. Amaç; `props`, `state`, component mantigi ve mobil UI bilgisini daha urun odakli bir akisa cevirmektir.
+
+## Proje Amaci
+
+- Kullaniciya Tamagotchi benzeri kisa dongulu bir mobil deneyim sunmak
+- Pet bakimi uzerinden oyunlastirma mantigi kurmak
+- React Native ile tek ekranda okunabilir, mobil odakli bir UI gelistirmek
 
 ## Oyunlastirma Ozellikleri
 
-- XP ve Level sistemi
+- XP ve level sistemi
 - Coin kazanimi
 - Achievement board
-- Canli durum paneli: aclik, mutluluk, enerji
-- Aksiyon kombosu
-- Duruma gore degisen gorev mesaji
-- Dinamik ruh hali karti ve durum guncellemeleri
+- Gun / evrim asamasi sistemi
+- Aclik, mutluluk, enerji, hijyen ve saglik statlari
+- Uyku, temizlik, ilac ve oyun aksiyonlari
+- Pet durumuna gore degisen mesajlar ve kritik durum akisi
+
+## Ekran ve Oynanis Ozeti
+
+1. Kullanici peti besler, oynatir, temizler, uyutur veya ilac verir.
+2. Her aksiyon petin farkli ihtiyaclarini etkiler.
+3. Zaman ilerledikce statlar degisir ve denge bozulursa pet kritik moda girebilir.
+4. Oyuncu XP, coin ve achievement kazanarak peti daha uzun sure saglikli tutmaya calisir.
 
 ## Teknolojiler
 
@@ -20,7 +33,7 @@ Bu proje, Challenge 03'teki temel Tamagotchi prototipinin Challenge 04 icin urun
 - React Native
 - JavaScript
 
-## Projeyi Calistirma
+## Nasil Calistirilir
 
 ```bash
 cd week3-digital-pet
@@ -28,53 +41,50 @@ npm install
 npm start
 ```
 
-Alternatif komutlar:
+Alternatif:
 
 ```bash
 npm run android
 npm run web
 ```
 
-## APK
+## GitHub Repo
 
-APK dosyasini ekledikten sonra bu bolumu guncelle:
+- Repo: https://github.com/Miku-erm/PetGame
 
-- APK linki: `BURAYA_APK_LINKI_EKLE`
+## APK / Build
 
-Repo icine APK koyacaksan ornek yol:
+EAS Android build baslatildi. Guncel build durumu:
 
-- `release/app-release.apk`
+- Build sayfasi: https://expo.dev/accounts/emre23232/projects/week3-digital-pet/builds/eba3c97a-a1b1-4cda-9644-b15ecbf61f36
+
+Not:
+
+- Bu link build durumunu gosterir.
+- Build tamamlaninca ayni sayfadan APK indirme linki gorunur.
+
+## Expo Proje Linki
+
+- Expo project: https://expo.dev/accounts/emre23232/projects/week3-digital-pet
 
 ## Video
 
-YouTube "Liste Disi" tanitim videosu linkini ekledikten sonra bu bolumu guncelle:
+YouTube liste disi tanitim videosu eklenecek:
 
 - Video linki: `BURAYA_YOUTUBE_LINKI_EKLE`
 
-## Kullanici Geri Bildirimi
+## Dokumanlar
 
-3 kisiyle yapilan kullanici test raporu burada tutulabilir:
+- Kullanici geri bildirim raporu: [docs/USER_FEEDBACK_REPORT.md](./docs/USER_FEEDBACK_REPORT.md)
+- AI prompt ozeti: [docs/AI_PROMPT_SUMMARY.md](./docs/AI_PROMPT_SUMMARY.md)
 
-- [USER_FEEDBACK_REPORT.md](./docs/USER_FEEDBACK_REPORT.md)
+## Kullanici Testi Notu
 
-## AI Prompt Ozeti
+Teslimden once uygulama en az 3 kisiye kullandirilmali ve geri bildirimler rapora islenmelidir.
 
-AI ile yaptigin iterasyon ozeti burada tutulabilir:
+## Teslim Oncesi Son Kontrol
 
-- [AI_PROMPT_SUMMARY.md](./docs/AI_PROMPT_SUMMARY.md)
-
-## Uygulama Akisi
-
-1. Kullanici dijital evcil hayvani besler, oynatir veya dinlendirir.
-2. Her aksiyon XP ve coin kazandirir.
-3. Pet'in aclik, mutluluk ve enerji durumu degisir.
-4. Belirli kosullar saglaninca achievement'lar acilir.
-5. Kullanici daha yuksek seviyeye cikip pet'i dengede tutmaya calisir.
-
-## Teslim Oncesi Kontrol Listesi
-
-- APK linkini ekle
 - YouTube video linkini ekle
-- Gercek 3 kullanici geri bildirimi ile raporu doldur
-- Ekran goruntulerini repoya ekle
-- Public GitHub repo olarak yayinla
+- Build tamamlaninca APK linkini README icine gerekirse ayrica yaz
+- 3 kisilik geri bildirim raporunu kendi test sonuclarinla guncelle
+- Ekran goruntulerini repo icine ekle
