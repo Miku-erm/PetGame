@@ -53,12 +53,17 @@ npm run web
 
 - Repo: https://github.com/Miku-erm/PetGame
 
+## APK
+
+- Repo icindeki APK dosyasi: [application-8247b1d7-82b0-4c7f-a683-fe5645b38a04.apk](./application-8247b1d7-82b0-4c7f-a683-fe5645b38a04.apk)
+- Dogrudan APK indirme linki: https://expo.dev/artifacts/eas/h65tuZNGyhrCSDRL9piPhQ.apk
+
 ## Expo Build Linki
 
 - Ana Expo build linki: https://expo.dev/accounts/emre23232/projects/week3-digital-pet/builds/8247b1d7-82b0-4c7f-a683-fe5645b38a04
 
 - Bu link build durumunu gosterir.
-- Build tamamlandiginda ayni sayfada APK indirme linki gorunur.
+- Build detaylarini ve loglari gormek icin kullanilabilir.
 
 ## Expo Proje Linki
 
@@ -75,5 +80,4 @@ npm run web
 
 ## Not
 
-- Build tamamlandiginda APK indirme linki Expo build sayfasinda gorunur.
 - Kullanici geri bildirim raporu teslimden once kendi test notlarina gore son kez duzenlenmelidir.
