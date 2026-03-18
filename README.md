@@ -71,7 +71,7 @@ Not:
 
 YouTube liste disi tanitim videosu eklenecek:
 
-- Video linki: `BURAYA_YOUTUBE_LINKI_EKLE`
+- Video linki: https://youtube.com/shorts/0UGOD0Yzfzg
 
 ## Dokumanlar
 
