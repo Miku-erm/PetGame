@@ -2,7 +2,7 @@
 
 Expo / React Native ile gelistirilmis oyunlastirilmis dijital evcil hayvan uygulamasi.
 
-Bu proje, Challenge 03'teki temel dijital evcil hayvan fikrinin Challenge 04 icin gelistirilmis halidir. Amaç; `props`, `state`, component mantigi ve mobil UI bilgisini daha urun odakli bir akisa cevirmektir.
+Bu proje, Challenge 03'teki temel dijital evcil hayvan fikrinin Challenge 04 icin gelistirilmis halidir. Amac; `props`, `state`, component mantigi ve mobil UI bilgisini daha urun odakli bir akisa cevirmektir.
 
 ## Proje Amaci
 
@@ -29,7 +29,7 @@ Bu proje, Challenge 03'teki temel dijital evcil hayvan fikrinin Challenge 04 ici
 
 ## Teknolojiler
 
-- Expo
+- Expo SDK 54
 - React Native
 - JavaScript
 
@@ -38,7 +38,7 @@ Bu proje, Challenge 03'teki temel dijital evcil hayvan fikrinin Challenge 04 ici
 ```bash
 cd week3-digital-pet
 npm install
-npm start
+npx expo start -c
 ```
 
 Alternatif:
@@ -54,14 +54,14 @@ npm run web
 
 ## APK / Build
 
-EAS Android build baslatildi. Guncel build durumu:
+SDK 54 icin yeni EAS Android build baslatildi. Guncel build durumu:
 
-- Build sayfasi: https://expo.dev/accounts/emre23232/projects/week3-digital-pet/builds/eba3c97a-a1b1-4cda-9644-b15ecbf61f36
+- SDK 54 build sayfasi: https://expo.dev/accounts/emre23232/projects/week3-digital-pet/builds/8247b1d7-82b0-4c7f-a683-fe5645b38a04
 
 Not:
 
 - Bu link build durumunu gosterir.
-- Build tamamlaninca ayni sayfadan APK indirme linki gorunur.
+- Build tamamlaninca ayni sayfada APK indirme linki olusur.
 
 ## Expo Proje Linki
 
