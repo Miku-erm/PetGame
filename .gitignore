@@ -30,6 +30,7 @@ yarn-error.*
 .DS_Store
 __MACOSX/
 ._*
+RetroCatsFree/
 *.pem
 
 # local env files
