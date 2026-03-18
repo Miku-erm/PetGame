@@ -58,6 +58,10 @@ SDK 54 icin yeni EAS Android build baslatildi. Guncel build durumu:
 
 - SDK 54 build sayfasi: https://expo.dev/accounts/emre23232/projects/week3-digital-pet/builds/8247b1d7-82b0-4c7f-a683-fe5645b38a04
 
+## Expo Build Linki
+
+- Ana Expo build linki: https://expo.dev/accounts/emre23232/projects/week3-digital-pet/builds/8247b1d7-82b0-4c7f-a683-fe5645b38a04
+
 Not:
 
 - Bu link build durumunu gosterir.
