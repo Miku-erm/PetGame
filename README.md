@@ -2,7 +2,7 @@
 
 Expo / React Native ile gelistirilmis oyunlastirilmis dijital evcil hayvan uygulamasi.
 
-Bu proje, Challenge 03'teki temel dijital evcil hayvan fikrinin Challenge 04 icin gelistirilmis halidir. Amac; `props`, `state`, component mantigi ve mobil UI bilgisini daha urun odakli bir akisa cevirmektir.
+Pocket Tamagotchi, Tamagotchi benzeri bir pet bakim deneyimini mobilde kisa dongulu ve oyunlastirilmis bir yapida sunmak icin gelistirildi. Uygulama; pet bakimi, durum yonetimi, odul sistemi ve tek ekranda hizli aksiyon mantigi etrafinda kurgulandi.
 
 ## Proje Amaci
 
@@ -36,7 +36,8 @@ Bu proje, Challenge 03'teki temel dijital evcil hayvan fikrinin Challenge 04 ici
 ## Nasil Calistirilir
 
 ```bash
-cd week3-digital-pet
+git clone https://github.com/Miku-erm/PetGame.git
+cd PetGame
 npm install
 npx expo start -c
 ```
@@ -52,28 +53,18 @@ npm run web
 
 - Repo: https://github.com/Miku-erm/PetGame
 
-## APK / Build
-
-SDK 54 icin yeni EAS Android build baslatildi. Guncel build durumu:
-
-- SDK 54 build sayfasi: https://expo.dev/accounts/emre23232/projects/week3-digital-pet/builds/8247b1d7-82b0-4c7f-a683-fe5645b38a04
-
 ## Expo Build Linki
 
 - Ana Expo build linki: https://expo.dev/accounts/emre23232/projects/week3-digital-pet/builds/8247b1d7-82b0-4c7f-a683-fe5645b38a04
 
-Not:
-
 - Bu link build durumunu gosterir.
-- Build tamamlaninca ayni sayfada APK indirme linki olusur.
+- Build tamamlandiginda ayni sayfada APK indirme linki gorunur.
 
 ## Expo Proje Linki
 
 - Expo project: https://expo.dev/accounts/emre23232/projects/week3-digital-pet
 
 ## Video
-
-YouTube liste disi tanitim videosu eklenecek:
 
 - Video linki: https://youtube.com/shorts/0UGOD0Yzfzg
 
@@ -86,9 +77,7 @@ YouTube liste disi tanitim videosu eklenecek:
 
 Teslimden once uygulama en az 3 kisiye kullandirilmali ve geri bildirimler rapora islenmelidir.
 
-## Teslim Oncesi Son Kontrol
+## Not
 
-- YouTube video linkini ekle
-- Build tamamlaninca APK linkini README icine gerekirse ayrica yaz
-- 3 kisilik geri bildirim raporunu kendi test sonuclarinla guncelle
-- Ekran goruntulerini repo icine ekle
+- Build tamamlandiginda APK indirme linki Expo build sayfasinda gorunur.
+- Kullanici geri bildirim raporu teslimden once kendi test notlarina gore son kez duzenlenmelidir.
