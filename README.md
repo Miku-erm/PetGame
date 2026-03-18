@@ -73,10 +73,6 @@ npm run web
 - Kullanici geri bildirim raporu: [docs/USER_FEEDBACK_REPORT.md](./docs/USER_FEEDBACK_REPORT.md)
 - AI prompt ozeti: [docs/AI_PROMPT_SUMMARY.md](./docs/AI_PROMPT_SUMMARY.md)
 
-## Kullanici Testi Notu
-
-Teslimden once uygulama en az 3 kisiye kullandirilmali ve geri bildirimler rapora islenmelidir.
-
 ## Not
 
 - Build tamamlandiginda APK indirme linki Expo build sayfasinda gorunur.
